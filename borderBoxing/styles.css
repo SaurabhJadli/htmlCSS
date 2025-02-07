@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    text-align: center;
+    margin: 20px;
+}
+
+main{
+    border: solid;
+    font-size: xx-large;
+}
+
+.box {
+    font-weight: bolder;
+    font-size: xx-large;
+    border: solid;
+    color: blue;
+    padding: 220px;
+    margin: 200px;
+}
