@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: snow;
+}
+
+h1{
+    padding: 30px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    margin: 8px;
+}
+
+.card-img{
+    margin-bottom: 4px;
+    width: 100%;
+    max-width: 150px;
+    
+}
+
+.card-title{
+    font-size: larger;
+}
+.card {
+    border: solid;
+    border-style: solid;
+    border-color: red;
+    padding: 8px;
+    max-width: 40%;
+    border-radius: 6px;
+    margin: 8px;
+    box-shadow: 3px 3px 3px lightcoral;
+}
