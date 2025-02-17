@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .sky {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, #ff8c00, #ffcc66, #87ceeb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: skyChange 10s linear infinite alternate;
+  }
+  
+  .sun {
+    width: 200px;
+    height: 200px;
+    background: #ff8c00;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    animation: sunset 10s linear infinite alternate;
+  }
+  
+  @keyframes sunset {
+    0% { top: 20%; }
+    100% { top: 110%; opacity: 0.5; }
+  }
+  
+  @keyframes skyChange {
+    0% { background: skyblue; }
+    100% { background: orange; }
+  }
+  
