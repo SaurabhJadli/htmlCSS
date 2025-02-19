@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-color: skyblue;
+    display: inline-block;
+    width: 50%;
+}
+
+.box2 {
+    background-color: orange;
+    display: inline;
+    width: 20%;
+}
+
+.span{
+    background-color: tomato;
+    width: 50px;
+}
