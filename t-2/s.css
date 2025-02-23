@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: skyblue;
+}
+
+.circle {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: moon 6s linear 1s infinite;
+}
+
+@keyframes moon {
+    0% {
+        transform: translateY(0);
+    }
+   
+    100% {
+        transform: translateY(800px);
+    }
+    
+}
