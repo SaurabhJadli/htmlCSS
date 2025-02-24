@@ -1,0 +1,160 @@
+.circle1{
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 50%;
+    animation: circle1 2s linear 1s infinite normal;
+}
+
+.circle2{
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 50%;
+    animation: circle2 2s linear 1s infinite normal;
+
+}
+
+.circle3{
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 50%;
+    animation: circle3 2s linear 1s infinite normal;
+
+}
+
+.circle4{
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 50%;
+    animation: circle4 2s linear 0s infinite normal;
+}
+
+
+@keyframes circle1{
+    0%{
+        transform: translate(0, 0);
+    }
+    26%{
+        transform: translate(25px, 20px);
+
+    }
+    53%{
+        transform: translate(0, 40px);
+    }
+    77%{
+        transform: translate(-25px, 20px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes circle2 {
+    0%{
+        transform: translate(-22px, 20px);
+    }
+    26%{
+
+        transform: translate(5px, 40px);
+
+    }
+    53%{
+        transform: translate(-22px, 60px);
+    }
+    77%{
+        transform: translate(-35px, 40px);
+    }
+    100%{
+        transform: translate(-22px, 20px);
+    }
+}
+
+@keyframes circle3 {
+    0%{
+        transform: translate(0, 60px);
+    }
+    26%{
+        transform: translate(25px, 80px);
+
+    }
+    53%{
+        transform: translate(-8, 100px);
+    }
+    77%{
+        transform: translate(-20px, 80px);
+    }
+    100%{
+        transform: translate(0px, 60px);
+    }
+}
+
+@keyframes circle4 {
+    0%{
+        transform: translate(25px, 80px);
+    }
+    50%{
+
+        transform: translate(50px, 25px);
+
+    }
+    75%{
+        transform: translate(0, 40px);
+    }
+    100%{
+        transform: translate(-25px, 25px);
+    }
+}
+
+.image-container{
+    display: flex;
+    position: relative;
+    margin-top:50px;
+}
+
+.img1{
+    position: absolute;
+z-index: -2
+}
+
+.img2{
+    position: absolute;
+z-index: -1
+}
+
+.img3{
+    position: absolute;
+z-index: 0
+}
+
+.img4{
+    position: absolute;
+z-index: 1
+}
+
+.image-container:hover > .img4{
+    transform: rotate(40deg);
+    left: 40px;
+}
+
+.image-container:hover > .img3{
+    transform: rotate(20deg);
+    left: 20px;
+
+}
+
+
+.image-container:hover > .img2{
+    transform: rotate(10deg);
+    left: 10px;
+
+}
+
+img{
+    border-radius: 4px;
+}
+img:hover {
+transform: scale(1.2, 1.2);
+}
