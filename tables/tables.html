@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in HTML</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(232, 237, 241);">
+    <style>
+        th, td{
+            border-style: solid;
+            border-radius: 8px;
+
+        }
+        table{
+            background-color: azure;
+            border-radius: 8px;
+        }
+        th{
+            background-color: gray;
+        }
+    </style>
+    <center>
+        <h1>Tables in HTML</h1>
+
+        <!-- table 1 starts here -->
+<h2>table 1:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>sr no</th>
+                    <th>name</th>
+                    <th>branch</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>name1</td>
+                    <td>branc1</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>name2</td>
+                    <td>branc2</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>name3</td>
+                    <td>branc3</td>
+                </tr>
+            </tbody>
+        </table>
+
+<!-- table 2 starts here -->
+ <h2>Table 2:</h2>
+        <table style="border-style: solid;">
+            <thead >
+                <tr>
+                    <th>sr no</th>
+                    <th>name</th>
+                    <th>branch</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>name1</td>
+                    <td rowspan="3">branc1</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>name2</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>name3</td>
+                </tr>
+            </tbody>
+        </table>
+
+<!-- table 3 starts here -->
+<h2>table 3</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>full name</th>
+                    <td>data1</td>
+                    <td>data2</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>age</th>
+                    <td colspan="2">name1</td>
+                </tr>
+
+                <tr>
+                    <th>city</th>
+                    <td>2</td>
+                    <td>name2</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </center>
+</body>
+</html>
