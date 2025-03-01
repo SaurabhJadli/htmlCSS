@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.css-head {
+    margin: 20px;
+    text-align: center;
+    background-color: blue;
+    color: snow;
+    border-radius: 8px;
+}
+
+.li {
+    margin: 14px;
+    margin-left: 30px;
+    background-color: aqua;
+    border-radius: 8px;
+}
+
+.italic {
+    font-style: italic;
+    
+}
+
+.underline {
+    text-decoration:line-through;
+}
+
+.color {
+    color: blue;
+}
+
+.stike{
+    text-decoration-line: line-through;
+}
+
+.shadow{
+    text-shadow: 10px;
+}
+
+.size {
+    font-size: 40px;
+}
+
+.weight {
+    font-weight: 900;
+}
+
+.let-space {
+    letter-spacing: 20px;
+}
+
+.word-space {
+    word-spacing: 20px;
+}
+
+.height {
+    line-height: 80px;
+}
+
+.cal{
+    font-style: ;
+}
